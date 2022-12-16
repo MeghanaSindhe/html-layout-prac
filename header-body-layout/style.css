@@ -1,0 +1,108 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#header {
+   background-color: #383CC1;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: sticky;
+   top:0;
+}
+
+#logo {
+   background-color: #E21717;
+   width: 100px;
+   height: 25px;
+}
+
+#header-right-container {
+   background-color: yellow;
+   width: 155px;
+   height: 25px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+#courses {
+   background-color: aqua;
+   width: 40px;
+   height: 25px;
+}
+
+#contact {
+   background-color: deeppink;
+   width: 40px;
+   height: 25px;
+}
+
+#sign-in {
+   background-color: #F4CE6A;
+   width: 40px;
+   height: 25px;
+}
+
+#body-header {
+   text-align: center;
+}
+
+
+.block{
+   width: 366px;
+   height: 363px;
+   border-radius: 8px;
+}
+.row{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+
+#block1 {
+   background-color: darkslategrey;
+}
+
+#block2 {
+   background-color: springgreen;
+}
+
+#block3 {
+   background-color: #FF6666;
+}
+
+
+#block4 {
+   background-color: darkorchid;
+}
+
+#block5 {
+   background-color: #F4CE6A;
+}
+
+#block6 {
+   background-color: #242B2E;
+}
+
+#block7 {
+   background-color: darkorchid;
+}
+
+#block8 {
+   background-color: #F4CE6A;
+}
+
+#block9 {
+   background-color: #242B2E;
+}
